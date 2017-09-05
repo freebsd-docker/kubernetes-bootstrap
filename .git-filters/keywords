@@ -2,6 +2,8 @@
 ############################################################ IDENT(1)
 #
 # $Title: Filter to expand/delete keywords before/after commit (respectively) $
+# $Copyright: 2015-2017 The FrauBSD Project. All rights reserved. $
+# $GitHub: kubernetes-bootstrap.git .git-filters/keywords master 2017-09-05 11:13:45 +0000 unknown $
 #
 ############################################################ INFORMATION
 #
@@ -24,8 +26,8 @@ KEYWORDS="
 _Author='$NAME'
 _Branch='$BRANCH'
 _Date='$DATE'
-_GitHub='$gitfile $DATE $NAME'
-_Header='${ORIGIN##*[:/]} $gitfile $BRANCH $DATE $NAME'
+_GitHub='${ORIGIN##*[:/]} $gitfile $BRANCH $DATE $NAME'
+_Header='$gitfile $DATE $NAME'
 _Origin='$ORIGIN'
 _Project='${ORIGIN##*:}'
 _RCSfile='${gitfile##*/}'
@@ -186,9 +188,4 @@ done
 
 ################################################################################
 # END
-################################################################################
-#
-# $Copyright: 2015-2017 The FrauBSD Project. All rights reserved. $
-# $GitHub: .git-filters/keywords 2017-09-05 11:11:30 +0000 unknown $
-#
 ################################################################################
