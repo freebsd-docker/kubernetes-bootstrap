@@ -1,4 +1,4 @@
-[//]: # ($GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:24:54 +0000 freebsdfrau $)
+[//]: # ($GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:25:45 +0000 freebsdfrau $)
 [//]: # ($Branch: master $)
 
 # kubernetes-bootstrap
@@ -13,13 +13,13 @@ The following is required before using `git commit` in this project.
 
 This will ensure the GitHub keyword is expanded/updated for each commit.
 
-A full list of keywords supported include:
+A full sample of keywords supported include:
 
 > `$Author: freebsdfrau $`  
 > `$Branch: master $`  
-> `$Date: 2017-09-05 19:24:54 +0000 $`  
-> `$GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:24:54 +0000 freebsdfrau $`  
-> `$Header: README.md 2017-09-05 19:24:54 +0000 freebsdfrau $`  
+> `$Date: 2017-09-05 19:25:45 +0000 $`  
+> `$GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:25:45 +0000 freebsdfrau $`  
+> `$Header: README.md 2017-09-05 19:25:45 +0000 freebsdfrau $`  
 > `$Origin: git@github.com:freebsd-docker/kubernetes-bootstrap.git $`  
 > `$Project: freebsd-docker/kubernetes-bootstrap.git $`  
 > `$RCSfile: README.md $`  
