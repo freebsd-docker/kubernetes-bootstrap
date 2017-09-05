@@ -3,7 +3,7 @@
 #
 # $Title: Script to enable client side hooks $
 # $Copyright: 2017 Devin Teske. All rights reserved. $
-# $GitHub: kubernetes-bootstrap.git .git-hooks/install.sh master 2017-09-05 11:19:21 +0000 freebsdfrau $
+# $GitHub: kubernetes-bootstrap.git .git-hooks/install.sh master 2017-09-05 11:25:54 +0000 freebsdfrau $
 #
 ############################################################ GLOBALS
 
@@ -37,6 +37,11 @@ eval2()
 set -e # Make all errors fatal
 
 #
+# Information
+#
+eval2 : "progdir='$progdir'"
+
+#
 # Make symlinks in .git directory
 #
 for file in $( find "$progdir" \
@@ -47,7 +52,7 @@ for file in $( find "$progdir" \
 	-and -perm +0111 \
 	| sed -e 's#.*/##'
 ); do
-	eval2 ln -sfv ../../.git-hooks/$file .git/hooks
+	eval2 ln -sfv ../../.git-hooks/$file \"\$progdir/../.git/hooks\"
 done
 
 #
