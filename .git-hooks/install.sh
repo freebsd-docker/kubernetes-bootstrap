@@ -3,7 +3,7 @@
 #
 # $Title: Script to enable client side hooks $
 # $Copyright: 2017 Devin Teske. All rights reserved. $
-# $GitHub: kubernetes-bootstrap.git .git-hooks/install.sh master 2017-09-05 11:25:54 +0000 freebsdfrau $
+# $GitHub: freebsd-docker/kubernetes-bootstrap.git .git-hooks/install.sh 2017-09-05 18:27:52 +0000 freebsdfrau $
 #
 ############################################################ GLOBALS
 
