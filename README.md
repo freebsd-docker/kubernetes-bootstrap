@@ -1,4 +1,4 @@
-[//]: # ($GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:24:08 +0000 freebsdfrau $)
+[//]: # ($GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:24:54 +0000 freebsdfrau $)
 [//]: # ($Branch: master $)
 
 # kubernetes-bootstrap
@@ -17,13 +17,13 @@ A full list of keywords supported include:
 
 > `$Author: freebsdfrau $`  
 > `$Branch: master $`  
-> `$Date: 2017-09-05 19:24:08 +0000 $`  
-> `$GitHub`  
-> `$Header`  
-> `$Origin`  
-> `$Project`  
-> `$RCSfile`  
-> `$Source`
+> `$Date: 2017-09-05 19:24:54 +0000 $`  
+> `$GitHub: freebsd-docker/kubernetes-bootstrap.git README.md 2017-09-05 19:24:54 +0000 freebsdfrau $`  
+> `$Header: README.md 2017-09-05 19:24:54 +0000 freebsdfrau $`  
+> `$Origin: git@github.com:freebsd-docker/kubernetes-bootstrap.git $`  
+> `$Project: freebsd-docker/kubernetes-bootstrap.git $`  
+> `$RCSfile: README.md $`  
+> `$Source: README.md $`
 
 ## Building
 
